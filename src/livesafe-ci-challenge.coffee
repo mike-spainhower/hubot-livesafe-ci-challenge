@@ -5,8 +5,7 @@
 #   LIST_OF_ENV_VARS_TO_SET
 #
 # Commands:
-#   hubot hello - <what the respond trigger does>
-#   orly - <what the hear trigger does>
+#   hubot ci challenge status - Gives the current status of CI Challenge
 #
 # Notes:
 #   <optional notes required for the script>
@@ -18,6 +17,6 @@ _ = require "ls-lodash"
 challStatus = require "../data/status.json"
 
 module.exports = (robot) ->
-  robot.respond /ci challenge status/, (msg) ->
+  robot.respond /ci challenge status/i, (msg) ->
     _.forEach challStatus, (status, human) ->
-      msg.reply "#{human} #{if status then 'white_check_mark' else ':no_entry:' }"
+      msg.send "#{human} #{if status then 'white_check_mark' else ':no_entry:' }"
