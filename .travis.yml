@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: mc.s.pain.how.er+npm@gmail.com
+  api_key:
+    secure: i1ti8Xjbgr4wkbXsAA8BhN4JkplbiD/j05GX2FxusyjwyJvCDZ+cVqXD7PC31rS81OEWVZar6xy8nnAXFUvgA5qejWHOT11OeCYjlSv1xiidQ1svIey/12RF/tm6KorUORX4en4Xu36TkvjdykbC2wDktuUaqkUUOfQAN/GM9Zc=
+  on:
+    repo: LiveSafe/hubot-livesafe-ci-challenge
+notifications:
+  flowdock:
+    secure: EE43jclB3rKqpg+gTvog5MWSuld7qGj4Qx0bCoy4KiiO5t8P6b1awv5AXRIt9rpaY9fC0Mqy317SARU45Ev7PbL9HE/08TSQYRn4Pxtb4OGk9vWN1ys5d2i/LaKxyekDA7q2PHd0zd1ylqqh37JOqnDIEtmPPz8J+ctACpPvRfY=
