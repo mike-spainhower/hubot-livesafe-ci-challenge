@@ -15,7 +15,7 @@
 #   Spain Train <spain@livesafemobile.com>
 
 _ = require "ls-lodash"
-challStatus = require "./status.json"
+challStatus = require "../data/status.json"
 
 module.exports = (robot) ->
   robot.respond /ci challenge status/, (msg) ->
