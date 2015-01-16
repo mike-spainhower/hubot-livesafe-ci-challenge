@@ -13,4 +13,4 @@ describe 'livesafe-ci-challenge', ->
     require('../src/livesafe-ci-challenge')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/ci challenge status/)
+    expect(@robot.respond).to.have.been.calledWith(/ci challenge status/i)
