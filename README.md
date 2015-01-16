@@ -1,4 +1,4 @@
-# hubot-livesafe-ci-challenge
+# hubot-livesafe-ci-challenge [![Build Status](https://travis-ci.org/LiveSafe/hubot-livesafe-ci-challenge.svg?branch=master)](https://travis-ci.org/LiveSafe/hubot-livesafe-ci-challenge)
 
 Ask SafeBot for the results of the LS CI Challenge! 
 
